@@ -1,0 +1,145 @@
+@font-face { 
+    font-family: "Roboto"; 
+    src: url("/fonts/Roboto-Regular.ttf"); 
+} 
+ 
+@font-face { 
+    font-family: "San Francisco Mono"; 
+    src: url("/fonts/SFMono-Regular.otf"); 
+} 
+ 
+@font-face { 
+    font-family: "Montserrat"; 
+    src: url("/fonts/Montserrat-Regular.ttf"); 
+} 
+ 
+header { 
+    font-size: 0.8em; 
+    font-family: "Roboto"; 
+} 
+ 
+body { 
+    font-size: 18px; 
+    font-weight: normal; 
+    line-height: 1.7; 
+    color: #212529; 
+    font-family: "Roboto"; 
+    background: rgb(225,226,220);
+background: radial-gradient(circle, rgba(225,226,220,1) 7%, rgba(214,218,211,1) 37%, rgba(202,209,201,1) 59%, rgba(171,182,176,1) 87%, rgba(159,165,165,1) 100%);
+    margin: 0 0 16px 0; 
+    width: 1860px; 
+    height: 1180px; 
+} 
+ 
+pre { 
+    background: rgb(249,223,222);
+background: radial-gradient(circle, rgba(249,223,222,1) 18%, rgba(247,218,217,1) 35%, rgba(245,214,213,1) 48%, rgba(244,211,210,1) 56%, rgba(243,210,209,1) 65%, rgba(242,208,207,1) 73%, rgba(241,206,205,1) 80%, rgba(240,203,202,1) 93%, rgba(231,183,181,1) 100%); 
+    padding: 10px; 
+    margin-top: 0px; 
+    border: 2px #BDA6A7 solid; 
+} 
+
+.info {
+    text-align: justify;
+}
+ 
+a { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: black; 
+    padding: 10px; 
+} 
+ 
+a:hover { 
+    color:white; 
+} 
+ 
+span { 
+    padding: 10px; 
+    margin-top: 0; 
+    margin-left: 0; 
+    margin-right: 0; 
+    margin-bottom: 16px; 
+    font-family: "San Francisco Mono"; 
+    font-size: 0.85em; 
+    background-color: #ffffff99; 
+} 
+ 
+h1 { 
+    font-size: 1.5em; 
+    font-family: "Monsterrat"; 
+    text-align: left; 
+    padding:6px 10px; 
+} 
+ 
+h2 { 
+    font-family: "Monsterrat"; 
+    text-align: center; 
+    background: rgb(249,223,222);
+background: radial-gradient(circle, rgba(249,223,222,1) 18%, rgba(247,218,217,1) 35%, rgba(245,214,213,1) 48%, rgba(244,211,210,1) 56%, rgba(243,210,209,1) 65%, rgba(242,208,207,1) 73%, rgba(241,206,205,1) 80%, rgba(240,203,202,1) 93%, rgba(231,183,181,1) 100%); 
+    margin-bottom: 0px; 
+    border-top: 2px #BDA6A7 solid; 
+    border-right: 2px #BDA6A7 solid; 
+    border-left: 2px #BDA6A7 solid; 
+} 
+ 
+h3 { 
+    font-family: "Monsterrat"; 
+    line-height: 0; 
+    margin: 2px 0px; 
+    font-weight: bold; 
+} 
+ 
+h4 {  
+    font-family: "Monsterrat"; 
+    font-weight: bold; 
+    font-size: 1em; 
+    margin: 2px 0px; 
+} 
+ 
+.info { 
+    padding: 10px 10px; 
+} 
+ 
+section h3 { 
+    text-align: left; 
+} 
+ 
+header img{ 
+    width: 50px; 
+    height: 50px; 
+} 
+ 
+.footer {
+    text-align: center;
+    font-size: 0.7em;
+    padding: 4px;
+    background-color: #ffffff4a;
+}
+ 
+.footer img { 
+    width: 50px; 
+    height: 50px; 
+} 
+ 
+.date { 
+    text-align: right; 
+} 
+ 
+.code-tag { 
+    color: #000000; 
+  } 
+   
+  .code-attr { 
+    color: #7d8686; 
+  } 
+   
+  .code-comment { 
+    color: #7d8686; 
+  } 
+ 
+ .newblock { 
+    color: #5b6363; 
+    background: rgb(249,223,222);
+background: radial-gradient(circle, rgba(249,223,222,1) 18%, rgba(247,218,217,1) 35%, rgba(245,214,213,1) 48%, rgba(244,211,210,1) 56%, rgba(243,210,209,1) 65%, rgba(242,208,207,1) 73%, rgba(241,206,205,1) 80%, rgba(240,203,202,1) 93%, rgba(231,183,181,1) 100%);; 
+ }

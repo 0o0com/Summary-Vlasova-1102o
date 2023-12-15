@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Regular.ttf");
+}
+
+header {
+    font-size: 0.8em;
+    font-family: "Roboto";
+}
+
+html { 
+    height: 100%; 
+    box-sizing: border-box; 
+} 
+ 
+*, *:before, *:after { 
+    box-sizing: inherit; 
+} 
+ 
+body { 
+    margin: 0; 
+    padding: 0; 
+    font-size: 18px; 
+    font-weight: normal; 
+    line-height: 1.7; 
+    color: #212529; 
+    font-family: "Roboto", sans-serif; 
+    background: rgb(225, 226, 220); 
+    background: radial-gradient(circle, rgba(225, 226, 220, 1) 7%, rgba(214, 218, 211, 1) 37%, rgba(202, 209, 201, 1) 59%, rgba(171, 182, 176, 1) 87%, rgba(159, 165, 165, 1) 100%); 
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; /* 100% высоты видимой области */ 
+} 
+ 
+table {  
+    border-collapse: collapse;  
+    width: 100%;  
+    background: rgb(240, 203, 202); 
+    background: radial-gradient(circle, rgba(240, 203, 202, 0.6307773109243697) 57%, rgba(231, 183, 181, 0.6279761904761905) 100%); 
+}  
+ 
+th, td { 
+    border: 1px solid  #D2AFAE; 
+    padding: 8px; 
+    text-align: left; 
+} 
+th { 
+    background-color: #F0CBCA; 
+} 
+
+h1 {
+    font-family: "Monsterrat";
+    text-align: left;
+    padding:6px 10px;
+}
+
+p {
+    font-family: "Roboto";
+    font-size: 25px;
+}
+ol {
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+h2 {
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+h2 {
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+h3 {
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+h4 {
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+h5 {
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+h6 {
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+h6 {
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+h6 {
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+a {
+    text-decoration: none; 
+    color: black; 
+}
+
+a:hover {
+    color:white;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-family: "Monsterrat";
+    text-align: left;
+    padding:6px 10px;
+}
+ 
+.footer { 
+    margin-top: auto; /* Прикрепляет футер к нижней части страницы */ 
+    text-align: center; 
+    font-size: 0.7em; 
+    padding: 4px; 
+    background-color: #ffffff4a; 
+}
+.footer img {
+    width: 50px;
+    height: 50px;
+}
+
+.date {
+    text-align: right;
+}
